@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Myfont;
+  src: url("../fonts/RubikBubbles-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Myfont1;
+  src: url("../fonts/Alinore.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Myfont2;
+  src: url("../fonts/OFL.txt");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Navbar {
+  position: sticky;
+  top: 0;
+  box-shadow: 3px 3px rgb(128, 255, 0);
+  background-color: black;
+  display: flex;
+  color: rgb(128, 255, 0);
+  width: 100%;
+  z-index: 10;
+}
+
+.menu {
+  padding: 3%;
+  width: 3%;
+  height: 3%;
+  cursor: pointer;
+}
+
+.title {
+  padding: 3% 3% 1% 1%;
+  font-size: 40px;
+  font-family: Myfont;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(128, 255, 0);
+}
+
+.search {
+  margin-left: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar {
+  color: rgb(128, 255, 0);
+  background-color: rgba(51, 50, 50, 0.726);
+  padding: 5% 10%;
+  border-radius: 50px 0px 0px 50px;
+  border: 3px solid #80ff00;
+  border-right: 0px solid black;
+  font-size: 20px;
+  width: 300px;
+}
+
+.searchbtn {
+  background-color: rgba(51, 50, 50, 0.726);
+  border: black;
+  padding: 5px;
+  height: 65px;
+  width: 65px;
+  border-radius: 0px 50px 50px 0px;
+  border: 3px solid #80ff00;
+}
+
+.searchbtn:hover,
+.searchbtn:focus {
+  cursor: pointer;
+  background-color: black;
+}
+
+.searchIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  font-family: Myfont1;
+  letter-spacing: 3px;
+  font-size: 4rem;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(128, 255, 0);
+  z-index: 15;
+}
+
+.overlayMenu {
+  padding: 3%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.genreOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55%;
+}
+
+.genreItem {
+  padding: 3%;
+}
+
+.genreItem:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}

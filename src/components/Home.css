@@ -1,0 +1,43 @@
+.upcoming,
+.trending,
+.popular {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: rgb(106, 212, 0);
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  padding: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(128, 255, 0);
+  transform: scale(1.02);
+}
+
+.btn:disabled {
+  background-color: rgb(73, 71, 71);
+  cursor: not-allowed;
+  color: rgb(156, 152, 152);
+  transform: scale(1);
+}
+
+.upcoming-heading,
+.trending-heading,
+.popular-heading {
+  color: rgb(128, 255, 0);
+  font-family: Myfont1;
+  letter-spacing: 3px;
+  margin-left: 4%;
+  font-size: 2.5rem;
+}
+
+.row {
+  margin-top: 3%;
+}
