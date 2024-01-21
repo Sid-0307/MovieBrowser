@@ -15,13 +15,13 @@ const Home = () => {
   const [popularresults, setPopularResults] = useState([]);
 
   const fetchMovies = async () => {
-    const upcomingResponse = await fetch("http://localhost:3001/upcoming");
+    const upcomingResponse = await fetch("https://movies4u-backend.onrender.com/upcoming");
     const upcomingData = await upcomingResponse.json();
 
-    const trendingResponse = await fetch("http://localhost:3001/trending");
+    const trendingResponse = await fetch("https://movies4u-backend.onrender.com/trending");
     const trendingData = await trendingResponse.json();
 
-    const popularResponse = await fetch("http://localhost:3001/popular");
+    const popularResponse = await fetch("https://movies4u-backend.onrender.com/popular");
     const popularData = await popularResponse.json();
 
     console.log(upcomingData, trendingData, popularData);
