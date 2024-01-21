@@ -13,14 +13,14 @@ const Search = () => {
   async function fetchSearchResults() {
     if (genreID) {
       await axios
-        .post("http://localhost:3001/genre", { genre: genreID })
+        .post("https://movies4u-backend.onrender.com/genre", { genre: genreID })
         .then((response) => {
           setSearchResults(response.data.results);
           if (response.data.results.length == 0) setFlag(1);
         });
     } else {
       await axios
-        .post("http://localhost:3001/search", { movie: movie })
+        .post("https://movies4u-backend.onrender.com/search", { movie: movie })
         .then((response) => {
           if (response.data.results.length == 0) setFlag(1);
           console.log(response.data.results.length, flag);
