@@ -10,17 +10,17 @@ const Search = () => {
   const [flag, setFlag] = useState(0);
   const [searchResults, setSearchResults] = useState([]);
 
-  async function fetchSearchResults() {
+    async function fetchSearchResults() {
     if (genreID) {
       await axios
-        .post("https://movies4u-backend.onrender.com/genre", { genre: genreID })
+        .post(`${process.env.REACT_APP_BASE_URL}/genre`, { genre: genreID })
         .then((response) => {
           setSearchResults(response.data.results);
           if (response.data.results.length == 0) setFlag(1);
         });
     } else {
       await axios
-        .post("https://movies4u-backend.onrender.com/search", { movie: movie })
+        .post(`${process.env.REACT_APP_BASE_URL}/search`, { movie: movie })
         .then((response) => {
           if (response.data.results.length == 0) setFlag(1);
           console.log(response.data.results.length, flag);
