@@ -29,7 +29,7 @@ npm start
 node /backend/server.js
 ```
 
-## Demo
+## Snapshots
 ![Screenshot 2024-01-22 144459](https://github.com/Sid-0307/MovieBrowser/assets/110523312/3acb6b6a-f872-4295-9279-2c7020e6f81a)
 
 ![Screenshot 2024-01-22 144315](https://github.com/Sid-0307/MovieBrowser/assets/110523312/c7029ad8-82a3-4228-92e6-9e062e8e4f93)
