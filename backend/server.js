@@ -17,6 +17,11 @@ const options = {
   },
 };
 
+app.get("/health", (req, res) => {
+  res.status(200).json({ message: "Loading OK" });
+});
+
+
 app.get("/popular", (req, res) => {
   const url =
     "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1";
