@@ -1,14 +1,14 @@
 # Movie Browser
 
-A simple web application to browse through different movies.
+A simple web application to browse through different movies. /
 Link - https://movies4u.vercel.app/
 
 ## How to run locally
 
-Clone the repo
+Clone the repo [https://github.com/username/repository.git](https://github.com/Sid-0307/MovieBrowser.git)
 ```bash
-git clone [https://github.com/username/repository.git](https://github.com/Sid-0307/MovieBrowser.git)https://github.com/Sid-0307/MovieBrowser.git
-npm I
+git clone https://github.com/Sid-0307/MovieBrowser.git
+npm i
 ```
 Create .env file 
 ```bash
