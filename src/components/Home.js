@@ -15,13 +15,19 @@ const Home = () => {
   const [popularresults, setPopularResults] = useState([]);
 
   const fetchMovies = async () => {
-    const upcomingResponse = await fetch(`${process.env.REACT_APP_BASE_URL}/upcoming`);
+    const upcomingResponse = await fetch(
+      `${process.env.REACT_APP_BASE_URL}/upcoming`
+    );
     const upcomingData = await upcomingResponse.json();
 
-    const trendingResponse = await fetch("https://movies4u-backend.onrender.com/trending");
+    const trendingResponse = await fetch(
+      `${process.env.REACT_APP_BASE_URL}/trending`
+    );
     const trendingData = await trendingResponse.json();
 
-    const popularResponse = await fetch("https://movies4u-backend.onrender.com/popular");
+    const popularResponse = await fetch(
+      `${process.env.REACT_APP_BASE_URL}/popular`
+    );
     const popularData = await popularResponse.json();
 
     console.log(upcomingData, trendingData, popularData);
