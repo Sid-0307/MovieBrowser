@@ -32,8 +32,6 @@ node /backend/server.js
 ## Demo
 ![Screenshot 2024-01-22 144459](https://github.com/Sid-0307/MovieBrowser/assets/110523312/3acb6b6a-f872-4295-9279-2c7020e6f81a)
 
-![Screenshot 2024-01-22 144257](https://github.com/Sid-0307/MovieBrowser/assets/110523312/22d929a9-7d91-4920-b61a-33c9ce36b46f)
-
 ![Screenshot 2024-01-22 144315](https://github.com/Sid-0307/MovieBrowser/assets/110523312/c7029ad8-82a3-4228-92e6-9e062e8e4f93)
 
 ![Screenshot 2024-01-22 144332](https://github.com/Sid-0307/MovieBrowser/assets/110523312/e9e03923-e894-4f0f-9102-4e8f0498c5ad)
