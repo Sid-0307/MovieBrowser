@@ -24,9 +24,11 @@ const Navbar = () => {
   return (
     <>
       <div className="Navbar">
-        <img className="menu" src={menu} alt="Menu" onClick={toggleOverlay} />
-        <div className="title">
-          <a href="/">Movies4U</a>
+        <div className="main-navbar">
+          <img className="menu" src={menu} alt="Menu" onClick={toggleOverlay} />
+          <div className="title">
+            <a href="/">Movies4U</a>
+          </div>
         </div>
         <div className="search">
           <input
