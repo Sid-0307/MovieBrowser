@@ -2,9 +2,10 @@
 .trending,
 .popular {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: nowrap;
   gap: 10px;
+  margin: 0px 4%;
 }
 
 .btn {
