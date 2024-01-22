@@ -4,6 +4,8 @@ A simple web application to browse through different movies.
 
 Hosted on - https://movies4u.vercel.app/
 
+Youtube - https://youtu.be/p23HO-Pa7gs
+
 ## How to run locally
 
 Clone the repo [https://github.com/username/repository.git](https://github.com/Sid-0307/MovieBrowser.git)
