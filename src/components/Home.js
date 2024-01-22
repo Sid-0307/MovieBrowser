@@ -15,7 +15,7 @@ const Home = () => {
   const [popularresults, setPopularResults] = useState([]);
 
   const fetchMovies = async () => {
-    const upcomingResponse = await fetch("https://movies4u-backend.onrender.com/upcoming");
+    const upcomingResponse = await fetch(`${process.env.BASE_URL}/upcoming`);
     const upcomingData = await upcomingResponse.json();
 
     const trendingResponse = await fetch("https://movies4u-backend.onrender.com/trending");
