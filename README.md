@@ -1,7 +1,8 @@
 # Movie Browser
 
-A simple web application to browse through different movies. /
-Link - https://movies4u.vercel.app/
+A simple web application to browse through different movies.  
+
+Hosted on - https://movies4u.vercel.app/
 
 ## How to run locally
 
